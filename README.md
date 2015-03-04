@@ -12,18 +12,18 @@ Objeto Constructor
 
 #### Propiedades
 
-*danio:* Porcentaje de daño del Inyector.
-*flujoPlasmaGenerado:* Total de Flujo de plasma generado por el Inyector.
+* *danio:* Porcentaje de daño del Inyector.
+* *flujoPlasmaGenerado:* Total de Flujo de plasma generado por el Inyector.
 
 #### Métodos
 
-*esUtilizable():* Permite verificar si el Inyector es utilizable.
-*generarPlasma(flujoPlasma):* Hace que el Inyector genere el plasma asignado por el Motor Wrap, este a su vez no puede retornar plasma sobrante que no pueda ser generado, en un tiempo de trabajo normal.
-*getMaximoFlujoPlasmaTrabajoNormal():* Devuelve el maximo de plasma que puede generar el inyector en un flujo de trabajo Normal.
-*getMaximoFlujoPlasmaTrabajoExcedido():* Devuelve el maximo de plasma que puede generar el inyector en un flujo de trabajo excedido.
-*getMinutosFuncionamiento():* Permite obtener el tiempo de funcionamiento restante que tiene el Inyector, despues de haber pasado por un flujo de trabajo excedido.
-*getDanio():* Permite obtener el Porcentaje de daño que tiene el Inyector.
-*getFlujoPlasmaGenerado():* Permite obtener el Flujo de Plasma que ha generado el Inyector.
+* *esUtilizable():* Permite verificar si el Inyector es utilizable.
+* *generarPlasma(flujoPlasma):* Hace que el Inyector genere el plasma asignado por el Motor Wrap, este a su vez no puede retornar plasma sobrante que no pueda ser generado, en un tiempo de trabajo normal.
+* *getMaximoFlujoPlasmaTrabajoNormal():* Devuelve el maximo de plasma que puede generar el inyector en un flujo de trabajo Normal.
+* *getMaximoFlujoPlasmaTrabajoExcedido():* Devuelve el maximo de plasma que puede generar el inyector en un flujo de trabajo excedido.
+* *getMinutosFuncionamiento():* Permite obtener el tiempo de funcionamiento restante que tiene el Inyector, despues de haber pasado por un flujo de trabajo excedido.
+* *getDanio():* Permite obtener el Porcentaje de daño que tiene el Inyector.
+* *getFlujoPlasmaGenerado():* Permite obtener el Flujo de Plasma que ha generado el Inyector.
 
 
 ## Requerimnientos de Instalacion
@@ -31,5 +31,5 @@ Objeto Constructor
 ## Correr Test
 	`jasmine-node --verbose --junitreport --growl spec`
 
-**autor:** *Byron Cueva*
+**Autor:** *Byron Cueva*
 
