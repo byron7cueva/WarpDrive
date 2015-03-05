@@ -56,7 +56,7 @@ Este modulo contiene las constantes de la Aplicacion.
 
 ## Pruebas
 
-Para realizar las prubas se ha utilizado jasmine. El archivo de pruebas se encuentra en spec/wrapSpec.js
+Para realizar las pruebas se ha utilizado jasmine. El archivo de pruebas se encuentra en spec/wrapSpec.js
 
 ### Requerimientos de Instalacion
 
@@ -64,6 +64,7 @@ Para realizar las prubas se ha utilizado jasmine. El archivo de pruebas se encue
 	`sudo npm install -g jasmine-node`
 
 ### Correr Test
+	El test se lo debe ejecutar desde el path raiz de la aplicacion.
 	`jasmine-node --verbose --junitreport --growl spec`
 
 **Autor:** *Byron Cueva*
