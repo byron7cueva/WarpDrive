@@ -1,0 +1,27 @@
+{
+  "name": "WrapDrive",
+  "version": "1.0.0",
+  "description": "Enterprise Wrap Drive",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine-node --verbose --junitreport --growl spec",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byron7cueva/WrapDrive.git"
+  },
+  "keywords": [
+    "wrap",
+    "drive"
+  ],
+  "author": "Byron Cueva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byron7cueva/WrapDrive/issues"
+  },
+  "homepage": "https://github.com/byron7cueva/WrapDrive",
+  "dependencies": {
+    "express": "^4.12.2"
+  }
+}

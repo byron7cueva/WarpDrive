@@ -1,0 +1,171 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?dfg0mm');
+	src:url('fonts/icomoon.eot?#iefixdfg0mm') format('embedded-opentype'),
+		url('fonts/icomoon.woff?dfg0mm') format('woff'),
+		url('fonts/icomoon.ttf?dfg0mm') format('truetype'),
+		url('fonts/icomoon.svg?dfg0mm#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'aargh';
+	src:url('fonts/Aaargh.ttf?dfg0mm') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-inyector-daniado:before {
+	content: "\e604";
+	color: #c0392b;
+	font-size: 1.2em;
+}
+
+.icon-luz:before {
+	content: "\e600";
+	color: #f1c40f;
+}
+
+.icon-daniado:before {
+	content: "\e601";
+}
+
+.icon-tiempo:before {
+	content: "\e602";
+	color: #2980b9;
+}
+
+.icon-flujo:before {
+	content: "\e603";
+	color: #f1c40f;
+}
+
+body {
+	font-family: 'aargh';
+	font-size: 16px;
+	background-color: #ecf0f1;
+}
+
+.datos ul {
+	color: #ecf0f1;
+	list-style: none;
+}
+
+.header {
+	background-color: #2980b9;
+	padding: 0.3em;
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 1.5em;
+	margin: 0;
+}
+
+.resultado {
+	margin: 1em auto;
+	text-align: center;
+}
+
+.resultado article {
+	background-color: #2c3e50;
+	color: #ecf0f1;
+	display: inline-block;
+	text-align: left;
+	width: 80%;
+}
+
+.resultado article h3 {
+	border-radius: 5px 5px 0 0;
+	background-color: #c0392b;
+	color: #ecf0f1;
+	font-weight: normal;
+	margin: 0;
+	padding: 0.5em 0.5em;
+}
+
+.caso {
+	margin: 0;
+	padding: 0.3em 0.5em;
+}
+
+.caso a {
+	color: #ecf0f1;
+	text-decoration: none;
+}
+
+.caso a h3 {
+	font-size: 1em;
+	margin: 0;
+}
+
+.caso ul {
+	margin: 0;
+	list-style: none;
+}
+
+.caso ul li {
+	display: inline-block;
+	margin: 0 0.5em;
+}
+
+.caso ul li:first-child {
+	margin: 0 0;
+}
+
+.caso ul li:last-child {
+	margin: 0 0;
+}
+
+.datos-caso {
+	margin: 0;
+	padding: 0;
+}
+
+.azul {
+	background-color: #2980b9;
+}
+
+.tomate {
+	background-color: #e67e22;
+}
+
+.verde {
+	background-color: #16a085;
+}
+
+.violeta {
+	background-color: #8e44ad;
+}
+
+.rojo {
+	background-color: #f2784b;
+}
+
+.rosado {
+	background-color: #9b59b6;
+
+}
+
+.negro {
+	background-color: #34495e;
+}
+
+.verde-oscuro {
+	background-color: #049372;
+}

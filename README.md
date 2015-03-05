@@ -60,14 +60,17 @@ Para realizar las pruebas se ha utilizado jasmine. El archivo de pruebas se encu
 
 ### Requerimientos de Instalacion
 
-	Se debe instalar jasmine-node de forma global.
+	> Se debe instalar jasmine-node de forma global.
 
 	`sudo npm install -g jasmine-node`
 
 ### Correr Test
-	El test se lo debe ejecutar desde el path raiz de la aplicacion.
+	> El test se lo debe ejecutar desde el path raiz de la aplicacion.
 	
 	`jasmine-node --verbose --junitreport --growl spec`
 
-**Autor:** *Byron Cueva*
+	> o
 
+	`npm test`
+
+**Autor:** *Byron Cueva*

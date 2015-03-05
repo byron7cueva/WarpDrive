@@ -1,0 +1,66 @@
+[
+	{
+		"nombre": "Caso 1",
+		"danioA": 0,
+		"danioB": 0,
+		"danioC": 0,
+		"porcentajeLuz": 100,
+		"color": "tomate "
+	},
+	{
+		"nombre": "Caso 2",
+  		"danioA": 0,
+  		"danioB": 0,
+  		"danioC": 0,
+  		"porcentajeLuz": 90,
+  		"color": "verde"
+  	},
+  	{
+  		"nombre": "Caso 3",
+  		"danioA": 0,
+  		"danioB": 0,
+  		"danioC": 0,
+  		"porcentajeLuz": 30,
+  		"color": "violeta"
+  	},
+  	{
+  		"nombre": "Caso 4",
+  		"danioA": 20,
+  		"danioB": 10,
+  		"danioC": 0,
+  		"porcentajeLuz": 100,
+  		"color": "rojo"
+  	},
+  	{
+  		"nombre": "Caso 5",
+  		"danioA": 0,
+  		"danioB": 0,
+  		"danioC": 100,
+  		"porcentajeLuz": 80,
+  		"color": "azul"
+  	},
+  	{
+  		"nombre": "Caso 6",
+  		"danioA": 0,
+  		"danioB": 0,
+  		"danioC": 0,
+  		"porcentajeLuz": 150,
+  		"color": "verde"
+  	},
+  	{
+  		"nombre": "Caso 7",
+  		"danioA": 0,
+  		"danioB": 0,
+  		"danioC": 30,
+  		"porcentajeLuz": 140,
+  		"color": "tomate"
+  	},
+  	{
+  		"nombre": "Caso 8",
+  		"danioA": 20,
+  		"danioB": 50,
+  		"danioC": 40,
+  		"porcentajeLuz": 170,
+  		"color": "azul"
+  	}
+]
