@@ -12,8 +12,8 @@ Este modulo contiene las constantes de la Aplicacion.
 
 
 ## Clases o Objeto Constructor
-### Wrap (lib/Wrap.js)
-> Esta clase representa al Motor Wrap de la nave Enterprise warp-drive, el cual es el responsable del funcionamiento de sus tres inyectores, y que estos generen plasma, en un tiempo de trabajo normal o excedido, para satisfacer el porcentaje de la Velocidad de la luz Requerido.
+### Warp (lib/Warp.js)
+> Esta clase representa al Motor Warp de la nave Enterprise warp-drive, el cual es el responsable del funcionamiento de sus tres inyectores, y que estos generen plasma, en un tiempo de trabajo normal o excedido, para satisfacer el porcentaje de la Velocidad de la luz Requerido.
 
 ### Propiedades
 * *inyectorA:* Instancia del Inyector A.
@@ -25,18 +25,18 @@ Este modulo contiene las constantes de la Aplicacion.
 #### Métodos
 
 * *calculaFlujoPlasma():* Permite calcular el flujo de plasma requerido a generar para cumplir con el Porcentaje de la Velocidad de la Luz indicada.
-* *getNumInyectoresDisponibles():* Permite obtener el numero de inyectores utilizables, con los cuales dispone el Motor Wrap para trabajar.
+* *getNumInyectoresDisponibles():* Permite obtener el numero de inyectores utilizables, con los cuales dispone el Motor Warp para trabajar.
 * *getMaximoPlasmaFuncionamientoNormal(numInyectores):* Permite obtener el maximo de plasma que puede generar el motor en su trabajo normal, dependiendo del numero de Inyectores disponibles.
-* *operar():* Permite iniciar el funcionamiento del Motor Wrap y realice los calculos en un flujo de Trabajo Normal y Excedido, con el fin de abastecer el porcentaje de luz requerido.
-* *getTiempoFuncionamiento():* Permite obtener el tiempo de funcionamiento que le resta al Motor Wrap.
+* *operar():* Permite iniciar el funcionamiento del Motor Warp y realice los calculos en un flujo de Trabajo Normal y Excedido, con el fin de abastecer el porcentaje de luz requerido.
+* *getTiempoFuncionamiento():* Permite obtener el tiempo de funcionamiento que le resta al Motor Warp.
 * *getFlujoPlasma():* Permite obtener el total de plasma que se debe generar para satisfacer el porcentaje de la velicidad de la luz.
 * *getInyectorA():* Permite obtener la instancia del inyector A.
 * *getInyectorB():* Permite obtener la instancia del inyector B.
 * *getInyectorC():* Permite obtener la instancia del inyector C.
-* *getPorcentajeLuz():* Permite obtener el porcentaje de velocidad de la luz a operar el Motor Wrap.
+* *getPorcentajeLuz():* Permite obtener el porcentaje de velocidad de la luz a operar el Motor Warp.
 
 ### Inyector (lib/Inyector)
-> Esta clase representa a un Inyector del Motor Wrap, el cual genera plasma dependiendo del porcentaje de daño que tenga este, puede gener cantidad de plasma en su flujo de trabajo normal o tambien en tiempo de trabajo excedido. Si genera plasma excedido de su trabajo normal, el tiempo de funcionamiento del Inyector disminuye y por ende el tiempo del Motor Wrap, tambien.
+> Esta clase representa a un Inyector del Motor Warp, el cual genera plasma dependiendo del porcentaje de daño que tenga este, puede gener cantidad de plasma en su flujo de trabajo normal o tambien en tiempo de trabajo excedido. Si genera plasma excedido de su trabajo normal, el tiempo de funcionamiento del Inyector disminuye y por ende el tiempo del Motor Warp, tambien.
 
 #### Propiedades
 
@@ -46,7 +46,7 @@ Este modulo contiene las constantes de la Aplicacion.
 #### Métodos
 
 * *esUtilizable():* Permite verificar si el Inyector es utilizable.
-* *generarPlasma(flujoPlasma):* Hace que el Inyector genere el plasma asignado por el Motor Wrap, este a su vez no puede retornar plasma sobrante que no pueda ser generado, en un tiempo de trabajo normal.
+* *generarPlasma(flujoPlasma):* Hace que el Inyector genere el plasma asignado por el Motor Warp, este a su vez no puede retornar plasma sobrante que no pueda ser generado, en un tiempo de trabajo normal.
 * *getMaximoFlujoPlasmaTrabajoNormal():* Devuelve el maximo de plasma que puede generar el inyector en un flujo de trabajo Normal.
 * *getMaximoFlujoPlasmaTrabajoExcedido():* Devuelve el maximo de plasma que puede generar el inyector en un flujo de trabajo excedido.
 * *getMinutosFuncionamiento():* Permite obtener el tiempo de funcionamiento restante que tiene el Inyector, despues de haber pasado por un flujo de trabajo excedido.
@@ -56,7 +56,7 @@ Este modulo contiene las constantes de la Aplicacion.
 
 ## Pruebas
 
-Para realizar las pruebas se ha utilizado jasmine. El archivo de pruebas se encuentra en spec/wrapSpec.js
+Para realizar las pruebas se ha utilizado jasmine. El archivo de pruebas se encuentra en spec/WarpSpec.js
 
 ### Requerimientos de Instalacion
 
