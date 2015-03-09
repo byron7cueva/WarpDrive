@@ -7,12 +7,12 @@ router.get('/', function(req, res) {
 	res.send(casos);
 });
 
-router.get('/:danioA/:danioB/:danioC/:porcentajeLuz', function(req, res) {
+router.post('/', function(req, res) {
 	var warp = new Warp({
-		danioA: parseInt(req.params.danioA),
-		danioB: parseInt(req.params.danioB),
-		danioC: parseInt(req.params.danioC),
-		porcentajeLuz: parseInt(req.params.porcentajeLuz)
+		danioA: parseInt(req.body.danioA),
+		danioB: parseInt(req.body.danioB),
+		danioC: parseInt(req.body.danioC),
+		porcentajeLuz: parseInt(req.body.porcentajeLuz)
 	});
 
 	warp.operar();

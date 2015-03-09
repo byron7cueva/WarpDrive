@@ -73,4 +73,11 @@ Para realizar las pruebas se ha utilizado jasmine. El archivo de pruebas se encu
 
 	`npm test`
 
+### Correr Aplicacion
+
+	`npm start`
+
+	Ingresar desde el navegador a la direccion: http://localhost:9000
+	Para ver cada caso debe hacer click sobre el, esto hace que calcule y de desplieguen los resultados.
+
 **Autor:** *Byron Cueva*

@@ -1,0 +1,27 @@
+<section class="resultados">
+	<article>
+		<figure>
+			<img src="img/nave.png" width="186"/>
+		</figure>
+		<div class="resultado ra">
+			<div class="dato">
+				<div class="letra"><span class="icon-flujo">A</span></div>
+				<div class="valor"><span>{{resultado.plasmaA | plasmaformat}}</span></div>
+			</div>
+		</div>
+		<div class="resultado rb">
+			<div class="dato">
+				<div class="letra"><span class="icon-flujo">B</span></div>
+				<div class="valor"><span>{{resultado.plasmaB | plasmaformat}}</span></div>
+			</div>
+		</div>
+		<div class="resultado rc">
+			<div class="dato">
+				<div class="letra"><span class="icon-flujo">C</span></div>
+				<div class="valor"><span>{{resultado.plasmaC | plasmaformat}}</span></div>
+			</div>
+		</div>
+		
+		<div><span class="icon-tiempo">: </span><span>{{resultado.tiempo | tiempoformat}}</span></div>
+	</article>
+</section>

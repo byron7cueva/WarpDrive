@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuites>
-<testsuite name="Caso 2: DañoA=0%, DañoB=0%, DañoC=0%, Velocidad Luz=90%" errors="0" tests="1" failures="0" time="0.002" timestamp="2015-03-09T00:22:16">
-  <testcase classname="Caso 2: DañoA=0%, DañoB=0%, DañoC=0%, Velocidad Luz=90%" name="Deberia tener el resultado: A=90, B=90, C=90, Tiempo Funcionamiento=Infinito" time="0"></testcase>
-</testsuite>
-</testsuites>
