@@ -4,63 +4,55 @@
 		"danioA": 0,
 		"danioB": 0,
 		"danioC": 0,
-		"porcentajeLuz": 100,
-		"color": "tomate "
+		"porcentajeLuz": 100
 	},
 	{
 		"nombre": "Caso 2",
   		"danioA": 0,
   		"danioB": 0,
   		"danioC": 0,
-  		"porcentajeLuz": 90,
-  		"color": "verde"
+  		"porcentajeLuz": 90
   	},
   	{
   		"nombre": "Caso 3",
   		"danioA": 0,
   		"danioB": 0,
   		"danioC": 0,
-  		"porcentajeLuz": 30,
-  		"color": "violeta"
+  		"porcentajeLuz": 30
   	},
   	{
   		"nombre": "Caso 4",
   		"danioA": 20,
   		"danioB": 10,
   		"danioC": 0,
-  		"porcentajeLuz": 100,
-  		"color": "rojo"
+  		"porcentajeLuz": 100
   	},
   	{
   		"nombre": "Caso 5",
   		"danioA": 0,
   		"danioB": 0,
   		"danioC": 100,
-  		"porcentajeLuz": 80,
-  		"color": "azul"
+  		"porcentajeLuz": 80
   	},
   	{
   		"nombre": "Caso 6",
   		"danioA": 0,
   		"danioB": 0,
   		"danioC": 0,
-  		"porcentajeLuz": 150,
-  		"color": "verde"
+  		"porcentajeLuz": 150
   	},
   	{
   		"nombre": "Caso 7",
   		"danioA": 0,
   		"danioB": 0,
   		"danioC": 30,
-  		"porcentajeLuz": 140,
-  		"color": "tomate"
+  		"porcentajeLuz": 140
   	},
   	{
   		"nombre": "Caso 8",
   		"danioA": 20,
   		"danioB": 50,
   		"danioC": 40,
-  		"porcentajeLuz": 170,
-  		"color": "azul"
+  		"porcentajeLuz": 170
   	}
 ]
